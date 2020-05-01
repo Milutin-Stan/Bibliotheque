@@ -9,9 +9,13 @@ Ce projet est special car pour sauvegarder il fallait utilliser des documents te
 Sachant que j'ai mal nommé mes fichiers je vais expliquer leurs rôles:
 
 bibli: le main
+
 save: comme une base de donné j'ai crée ce fichier pour sauvegarder des id (qui s'incrimentes a chaque creation d'un adherant) 
+
 adh : les adherents sont stockés ici
+
 liv : les livres sont stockés ici
+
 copie et lcopie: le systèm de sauvegarde est assez special j'utillise donc les fichiers de copie pour copier ce qui ne sera pas changé et j'ajoute la valeur que je voulait changer puis je recolle tout dans le fichier de sauvegarde de base. Car j'ai eu des erreurs quand je voulait supprimer directement une valeur.
 
 Pour les test: Le fichier est assez instable et supprimer les contenus des fichiers txt et la save (gardez au moins 0) peut regler cerains problemes.
@@ -28,9 +32,13 @@ This project is special because there are no data bases and only .txt files.
 Knowing I didn't properly name my docs here is a simple explenation:
 
 bibli: basically the main
+
 save: like a data base i made a file that saves a users id on creation (and auto increments itself)
+
 adh : the users are saved here
+
 liv : the books are saved here
+
 copie et lcopie: the save system is special because you can't out right delete or modify a attribute so what I do is I copy the whole data on the copie or lcopie (for books) and only leave out the attribute that i want to change, and finaly put it all back in the main save.
 
 Testing : The files are unstable so sometimes you will need to delete everything only keep a 0 in the save file.
