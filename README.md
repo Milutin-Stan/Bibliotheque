@@ -20,7 +20,7 @@ copie et lcopie: le systèm de sauvegarde est assez special j'utillise donc les 
 
 Pour les test: Le fichier est assez instable et supprimer les contenus des fichiers txt et la save (gardez au moins 0) peut regler cerains problemes.
 
-Systèm d'emprunt : Vous avez peutetre remarqué que les livres ont des identifiants aussi c'est fait dans le but quand un adherant emprunte un livre le id du livre copie celui du adherant. Et quand on veut regarder quel livre un adherant a emprunté on peut voir quel livre partage son id et vise versa.
+Système d'emprunt : Vous avez peutetre remarqué que les livres ont des identifiants aussi c'est fait dans le but quand un adherant emprunte un livre le id du livre copie celui du adherant. Et quand on veut regarder quel livre un adherant a emprunté on peut voir quel livre partage son id et vise versa.
 
 Difficultés rencontrés: comme je l'ai dit supprimer une valeur n'est pas assez simple donc je pensait transformer les identifiants des livres et des adherents en "zzz" comme ca ils apparesent en bas de la liste.
 
